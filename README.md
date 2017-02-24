@@ -5,7 +5,7 @@
 ###第二章 线性表
 
  1. 链表基本操作--[LinkedList][1]
- 2. 双链表基本操作--[DoubleLinkedList][2]
+ 2. 链表基本应用--[DoubleLinkedList][2]
  3. 真题模拟：
     设顺序表用数组A[]表示,表中元素存储在数组下表1~m+n的范围内，前m个元素递增有序，后n个元素也递增有序，设计算法使整个顺序表有序--[FakeQuestions][3]
  4. Codeup-1323：集合union--[CodeUp-1323][4]
