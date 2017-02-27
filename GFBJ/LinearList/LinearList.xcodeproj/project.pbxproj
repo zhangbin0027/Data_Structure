@@ -12,6 +12,11 @@
 		4A6E85CE1E5AE10800615CE2 /* DoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E85CC1E5AE10800615CE2 /* DoubleLinkedList.cpp */; };
 		4A6E85D01E5AE19700615CE2 /* FakeQuestions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E85CF1E5AE19700615CE2 /* FakeQuestions.cpp */; };
 		4A6E85D31E5AEDBF00615CE2 /* Codeup-1323.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E85D11E5AEDBF00615CE2 /* Codeup-1323.cpp */; };
+		4A7410611E63BC3A00A1AECD /* Exam3-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7410601E63BC3A00A1AECD /* Exam3-1.cpp */; };
+		4A7410631E63C2DA00A1AECD /* Exam3-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7410621E63C2DA00A1AECD /* Exam3-2.cpp */; };
+		4A7410651E641B1100A1AECD /* FakeQuestion-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7410641E641B1100A1AECD /* FakeQuestion-1.cpp */; };
+		4A7410671E642C7F00A1AECD /* Codeup-1330.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7410661E642C7F00A1AECD /* Codeup-1330.cpp */; };
+		4A7410691E646C2F00A1AECD /* Practice-2-(1).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7410681E646C2F00A1AECD /* Practice-2-(1).cpp */; };
 		4ADBC3CA1E5FB52B005E198E /* OldExam-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC3C91E5FB52B005E198E /* OldExam-1.cpp */; };
 		4ADBC3CC1E5FBE4A005E198E /* OldExam-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC3CB1E5FBE4A005E198E /* OldExam-2.cpp */; };
 		4ADBC3CE1E5FCB08005E198E /* OldExam-3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC3CD1E5FCB08005E198E /* OldExam-3.cpp */; };
@@ -38,6 +43,11 @@
 		4A6E85CC1E5AE10800615CE2 /* DoubleLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleLinkedList.cpp; sourceTree = "<group>"; };
 		4A6E85CF1E5AE19700615CE2 /* FakeQuestions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FakeQuestions.cpp; sourceTree = "<group>"; };
 		4A6E85D11E5AEDBF00615CE2 /* Codeup-1323.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Codeup-1323.cpp"; sourceTree = "<group>"; };
+		4A7410601E63BC3A00A1AECD /* Exam3-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Exam3-1.cpp"; sourceTree = "<group>"; };
+		4A7410621E63C2DA00A1AECD /* Exam3-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Exam3-2.cpp"; sourceTree = "<group>"; };
+		4A7410641E641B1100A1AECD /* FakeQuestion-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "FakeQuestion-1.cpp"; sourceTree = "<group>"; };
+		4A7410661E642C7F00A1AECD /* Codeup-1330.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Codeup-1330.cpp"; sourceTree = "<group>"; };
+		4A7410681E646C2F00A1AECD /* Practice-2-(1).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-2-(1).cpp"; sourceTree = "<group>"; };
 		4ADBC3C91E5FB52B005E198E /* OldExam-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "OldExam-1.cpp"; sourceTree = "<group>"; };
 		4ADBC3CB1E5FBE4A005E198E /* OldExam-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "OldExam-2.cpp"; sourceTree = "<group>"; };
 		4ADBC3CD1E5FCB08005E198E /* OldExam-3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "OldExam-3.cpp"; sourceTree = "<group>"; };
@@ -58,9 +68,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A74105F1E63BBDD00A1AECD /* StackQueueArray */ = {
+			isa = PBXGroup;
+			children = (
+				4A7410601E63BC3A00A1AECD /* Exam3-1.cpp */,
+				4A7410621E63C2DA00A1AECD /* Exam3-2.cpp */,
+				4A7410641E641B1100A1AECD /* FakeQuestion-1.cpp */,
+				4A7410661E642C7F00A1AECD /* Codeup-1330.cpp */,
+				4A7410681E646C2F00A1AECD /* Practice-2-(1).cpp */,
+			);
+			path = StackQueueArray;
+			sourceTree = "<group>";
+		};
 		4AF334261E5AE09E00B8AB2E = {
 			isa = PBXGroup;
 			children = (
+				4A74105F1E63BBDD00A1AECD /* StackQueueArray */,
 				4AF334311E5AE09E00B8AB2E /* LinearList */,
 				4AF334301E5AE09E00B8AB2E /* Products */,
 			);
@@ -153,10 +176,15 @@
 				4ADBC3CC1E5FBE4A005E198E /* OldExam-2.cpp in Sources */,
 				4A6E85D01E5AE19700615CE2 /* FakeQuestions.cpp in Sources */,
 				4A6E85CE1E5AE10800615CE2 /* DoubleLinkedList.cpp in Sources */,
+				4A7410631E63C2DA00A1AECD /* Exam3-2.cpp in Sources */,
 				4ADBC3D01E600860005E198E /* Practice-1-(5).cpp in Sources */,
 				4AF3343A1E5AE0C600B8AB2E /* LinkedList.cpp in Sources */,
 				4AF334331E5AE09E00B8AB2E /* main.cpp in Sources */,
+				4A7410671E642C7F00A1AECD /* Codeup-1330.cpp in Sources */,
 				4A580C6F1E5C82470084E03B /* Codeup-1329.cpp in Sources */,
+				4A7410611E63BC3A00A1AECD /* Exam3-1.cpp in Sources */,
+				4A7410651E641B1100A1AECD /* FakeQuestion-1.cpp in Sources */,
+				4A7410691E646C2F00A1AECD /* Practice-2-(1).cpp in Sources */,
 				4ADBC3CA1E5FB52B005E198E /* OldExam-1.cpp in Sources */,
 				4ADBC3CE1E5FCB08005E198E /* OldExam-3.cpp in Sources */,
 				4A580C6D1E5C63CB0084E03B /* Codeup-1324.cpp in Sources */,
