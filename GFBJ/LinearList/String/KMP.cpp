@@ -62,9 +62,6 @@ int KMP(char S[], int S_lenth, char T[], int T_length, int next[])
             ++j;
         }else {
             j = next[j];
-            if (0 == j) {
-                ++i;
-            }
         }
     }
     if (j > T_length) {     //模式串匹配成功
