@@ -31,6 +31,7 @@ void perm(char str[], int k, int n)
             
             perm(str, k-1, n);
             
+            //使数组倒回原来的样子，不会产生重复的排列结果
             temp = str[i];
             str[i] = str[k];
             str[k] = temp;
