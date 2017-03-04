@@ -32,6 +32,10 @@
 
  1. KMP算法及其优化--[KMP][16]
 
+###第五章 数组、稀疏矩阵与广义表
+
+ 1. Practice-2：数组递归的几个练习（和、最大值、平均数）--[Practice-2][17]
+
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
   [2]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/DoubleLinkedList.cpp
@@ -49,3 +53,4 @@
   [14]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/StackQueueArray/Codeup-1330.cpp
   [15]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/StackQueueArray/Practice-2-%281%29.cpp
   [16]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/String/KMP.cpp
+  [17]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/ArraySMGTB/Practice-2.cpp
