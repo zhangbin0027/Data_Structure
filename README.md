@@ -28,6 +28,10 @@
  4.  Codeup-1330： 将十进制数转化为八进制数--[Codeup-1330][14]
  5.  Practice-2-(1)： 递归求n个不同字符的全排列--[Practice-2-(1)][15]
 
+###第四章 串
+
+ 1. KMP算法及其优化--[KMP][16]
+
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
   [2]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/DoubleLinkedList.cpp
@@ -44,3 +48,4 @@
   [13]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/StackQueueArray/FakeQuestion-1.cpp
   [14]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/StackQueueArray/Codeup-1330.cpp
   [15]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/StackQueueArray/Practice-2-%281%29.cpp
+  [16]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/String/KMP.cpp
