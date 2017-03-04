@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A17EC771E6B0205000097A7 /* Practice-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A17EC761E6B0205000097A7 /* Practice-2.cpp */; };
 		4A580C6D1E5C63CB0084E03B /* Codeup-1324.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A580C6C1E5C63CB0084E03B /* Codeup-1324.cpp */; };
 		4A580C6F1E5C82470084E03B /* Codeup-1329.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A580C6E1E5C82470084E03B /* Codeup-1329.cpp */; };
 		4A6E85CE1E5AE10800615CE2 /* DoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E85CC1E5AE10800615CE2 /* DoubleLinkedList.cpp */; };
@@ -39,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A17EC761E6B0205000097A7 /* Practice-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-2.cpp"; sourceTree = "<group>"; };
 		4A580C6C1E5C63CB0084E03B /* Codeup-1324.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Codeup-1324.cpp"; sourceTree = "<group>"; };
 		4A580C6E1E5C82470084E03B /* Codeup-1329.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Codeup-1329.cpp"; sourceTree = "<group>"; };
 		4A6E85CC1E5AE10800615CE2 /* DoubleLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleLinkedList.cpp; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A17EC751E6B01E9000097A7 /* ArraySMGTB */ = {
+			isa = PBXGroup;
+			children = (
+				4A17EC761E6B0205000097A7 /* Practice-2.cpp */,
+			);
+			path = ArraySMGTB;
+			sourceTree = "<group>";
+		};
 		4A74105F1E63BBDD00A1AECD /* StackQueueArray */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 		4AF334261E5AE09E00B8AB2E = {
 			isa = PBXGroup;
 			children = (
+				4A17EC751E6B01E9000097A7 /* ArraySMGTB */,
 				4AD331A01E6853EE0093E16B /* String */,
 				4A74105F1E63BBDD00A1AECD /* StackQueueArray */,
 				4AF334311E5AE09E00B8AB2E /* LinearList */,
@@ -194,6 +205,7 @@
 				4AF334331E5AE09E00B8AB2E /* main.cpp in Sources */,
 				4A7410671E642C7F00A1AECD /* Codeup-1330.cpp in Sources */,
 				4A580C6F1E5C82470084E03B /* Codeup-1329.cpp in Sources */,
+				4A17EC771E6B0205000097A7 /* Practice-2.cpp in Sources */,
 				4A7410611E63BC3A00A1AECD /* Exam3-1.cpp in Sources */,
 				4A7410651E641B1100A1AECD /* FakeQuestion-1.cpp in Sources */,
 				4A7410691E646C2F00A1AECD /* Practice-2-(1).cpp in Sources */,
