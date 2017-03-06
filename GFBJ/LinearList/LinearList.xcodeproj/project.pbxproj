@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A17EC771E6B0205000097A7 /* Practice-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A17EC761E6B0205000097A7 /* Practice-2.cpp */; };
+		4A17EC791E6B9880000097A7 /* Practice-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A17EC781E6B9880000097A7 /* Practice-4.cpp */; };
 		4A580C6D1E5C63CB0084E03B /* Codeup-1324.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A580C6C1E5C63CB0084E03B /* Codeup-1324.cpp */; };
 		4A580C6F1E5C82470084E03B /* Codeup-1329.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A580C6E1E5C82470084E03B /* Codeup-1329.cpp */; };
 		4A6E85CE1E5AE10800615CE2 /* DoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E85CC1E5AE10800615CE2 /* DoubleLinkedList.cpp */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		4A17EC761E6B0205000097A7 /* Practice-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-2.cpp"; sourceTree = "<group>"; };
+		4A17EC781E6B9880000097A7 /* Practice-4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-4.cpp"; sourceTree = "<group>"; };
 		4A580C6C1E5C63CB0084E03B /* Codeup-1324.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Codeup-1324.cpp"; sourceTree = "<group>"; };
 		4A580C6E1E5C82470084E03B /* Codeup-1329.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Codeup-1329.cpp"; sourceTree = "<group>"; };
 		4A6E85CC1E5AE10800615CE2 /* DoubleLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleLinkedList.cpp; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				4A17EC761E6B0205000097A7 /* Practice-2.cpp */,
+				4A17EC781E6B9880000097A7 /* Practice-4.cpp */,
 			);
 			path = ArraySMGTB;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				4A6E85D31E5AEDBF00615CE2 /* Codeup-1323.cpp in Sources */,
 				4AD331A21E6853F80093E16B /* KMP.cpp in Sources */,
 				4ADBC3CC1E5FBE4A005E198E /* OldExam-2.cpp in Sources */,
+				4A17EC791E6B9880000097A7 /* Practice-4.cpp in Sources */,
 				4A6E85D01E5AE19700615CE2 /* FakeQuestions.cpp in Sources */,
 				4A6E85CE1E5AE10800615CE2 /* DoubleLinkedList.cpp in Sources */,
 				4A7410631E63C2DA00A1AECD /* Exam3-2.cpp in Sources */,
