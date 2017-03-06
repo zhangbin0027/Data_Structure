@@ -36,6 +36,12 @@
 
  1. Practice-2：数组递归的几个练习（和、最大值、平均数）--[Practice-2][17]
 
+###第六章 树与二叉树
+
+ 1. LevelTraversal：树的层次遍历（循环队列）--[LevelTraversal][18]
+ 2. Example-6-5：求二叉树的宽度（层次遍历+队列）--[Example-6-5][19]
+ 3. BinaryThreadTree：线索二叉树的线索化和遍历--[BinaryThreadTree][20]
+
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
   [2]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/DoubleLinkedList.cpp
@@ -54,3 +60,6 @@
   [15]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/StackQueueArray/Practice-2-%281%29.cpp
   [16]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/String/KMP.cpp
   [17]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/ArraySMGTB/Practice-2.cpp
+  [18]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/LevelTraversal.cpp
+  [19]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Example-6-5.cpp
+  [20]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/BinaryThreadTree.cpp
