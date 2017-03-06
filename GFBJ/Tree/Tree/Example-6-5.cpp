@@ -58,7 +58,7 @@ int maxNode(BTNode *b)
             if (q->rchild != NULL) {
                 que[++rear].p = q->rchild;
                 que[rear].level = level + 1;
-            }
+            }   
         }
         //循环完成后level的大小是树的深度即层数，此时遍历树的队列，查找哪层的结点最多即可
         //遍历队列level次，记录每层对应的结点数量，返回最大值即可
