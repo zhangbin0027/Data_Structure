@@ -12,6 +12,7 @@
 		4A49F9B51E6CE77D007E3A30 /* Struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A49F9B41E6CE77D007E3A30 /* Struct.cpp */; };
 		4A49F9B71E6CF633007E3A30 /* Example-6-5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A49F9B61E6CF633007E3A30 /* Example-6-5.cpp */; };
 		4A49F9B91E6D0D8B007E3A30 /* BinaryThreadTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A49F9B81E6D0D8B007E3A30 /* BinaryThreadTree.cpp */; };
+		4A49F9BB1E6E6081007E3A30 /* FakeQ-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A49F9BA1E6E6081007E3A30 /* FakeQ-2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		4A49F9B41E6CE77D007E3A30 /* Struct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Struct.cpp; sourceTree = "<group>"; };
 		4A49F9B61E6CF633007E3A30 /* Example-6-5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Example-6-5.cpp"; sourceTree = "<group>"; };
 		4A49F9B81E6D0D8B007E3A30 /* BinaryThreadTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryThreadTree.cpp; sourceTree = "<group>"; };
+		4A49F9BA1E6E6081007E3A30 /* FakeQ-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "FakeQ-2.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				4A49F9B21E6CE728007E3A30 /* LevelTraversal.cpp */,
 				4A49F9B61E6CF633007E3A30 /* Example-6-5.cpp */,
 				4A49F9B81E6D0D8B007E3A30 /* BinaryThreadTree.cpp */,
+				4A49F9BA1E6E6081007E3A30 /* FakeQ-2.cpp */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				4A49F9AC1E6CE6D4007E3A30 /* main.cpp in Sources */,
 				4A49F9B71E6CF633007E3A30 /* Example-6-5.cpp in Sources */,
 				4A49F9B51E6CE77D007E3A30 /* Struct.cpp in Sources */,
+				4A49F9BB1E6E6081007E3A30 /* FakeQ-2.cpp in Sources */,
 				4A49F9B31E6CE728007E3A30 /* LevelTraversal.cpp in Sources */,
 				4A49F9B91E6D0D8B007E3A30 /* BinaryThreadTree.cpp in Sources */,
 			);
@@ -262,6 +266,7 @@
 				4A49F9B11E6CE6D4007E3A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
