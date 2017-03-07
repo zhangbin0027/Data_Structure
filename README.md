@@ -41,6 +41,7 @@
  1. LevelTraversal：树的层次遍历（循环队列）--[LevelTraversal][18]
  2. Example-6-5：求二叉树的宽度（层次遍历+队列）--[Example-6-5][19]
  3. BinaryThreadTree：线索二叉树的线索化和遍历--[BinaryThreadTree][20]
+ 4. FakeQ-2：根据先序遍历和中序遍历递归构建二叉树--[FakeQ-2][21]
 
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
@@ -63,3 +64,4 @@
   [18]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/LevelTraversal.cpp
   [19]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Example-6-5.cpp
   [20]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/BinaryThreadTree.cpp
+  [21]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/FakeQ-2.cpp
