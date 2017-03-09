@@ -17,3 +17,4 @@ typedef struct BTNode
     struct BTNode *lchild;
     struct BTNode *rchild;
 }BTNode;
+

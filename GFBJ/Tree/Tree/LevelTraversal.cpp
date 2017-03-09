@@ -49,3 +49,22 @@ void level(BTNode *p)
         }
     }
 }
+
+//先序创建二叉树
+void createBT(BTNode *&p)
+{
+    char c ;;
+    //    cin >> c;
+    scanf("%c",&c);
+    
+    if (' ' == c) {
+        p = NULL;
+    }else {
+        p = (BTNode *)malloc(sizeof(BTNode));
+        p->data = c;
+        
+        createBT(p->lchild);
+        createBT(p->rchild);
+    }
+    
+}
