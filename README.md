@@ -42,6 +42,13 @@
  2. Example-6-5：求二叉树的宽度（层次遍历+队列）--[Example-6-5][19]
  3. BinaryThreadTree：线索二叉树的线索化和遍历--[BinaryThreadTree][20]
  4. FakeQ-2：根据先序遍历和中序遍历递归构建二叉树--[FakeQ-2][21]
+ 5. Practice-1-3：计算叶子结点个数，遍历和左右递归两种方法--[Practice-1-3][22]
+ 6. Practice-1-4：将叶子结点链接成链表--[Practice-1-4][23]
+ 7. Practice-1-5：遍历二叉树，设置双亲， 输出某结点到根结点的路径--[Practice-1-5][24]
+ 8. Practice-1-6：将完全二叉树的先序遍历转化为后序遍历，此处操作同一数组--[Practice-1-6][25]
+ 9. Practice-1-7：找到值为x的结点的层号，一种层次遍历方法，一种记录指针上下游走方法--[Practice-1-7][26]
+ 10. Practice-1-10：双序遍历（好像没啥卵用）--[Practice-1-10][27]
+ 11. Practice-2-1：输出根结点到每个叶子结点的路径--[Practice-2-1][28]
 
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
@@ -65,3 +72,10 @@
   [19]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Example-6-5.cpp
   [20]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/BinaryThreadTree.cpp
   [21]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/FakeQ-2.cpp
+  [22]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-1-3.cpp
+  [23]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-1-4.cpp
+  [24]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-1-5.cpp
+  [25]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-1-6.cpp
+  [26]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-1-7.cpp
+  [27]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-1-10.cpp
+  [28]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-2-1.cpp
