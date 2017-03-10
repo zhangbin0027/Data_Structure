@@ -14,6 +14,7 @@
 		4A0908A81E714A3C0044B924 /* Practice-1-7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A0908A71E714A3C0044B924 /* Practice-1-7.cpp */; };
 		4A0908AA1E718C180044B924 /* Practice-1-10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A0908A91E718C180044B924 /* Practice-1-10.cpp */; };
 		4A0908AC1E71949A0044B924 /* Practice-2-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A0908AB1E71949A0044B924 /* Practice-2-1.cpp */; };
+		4A0908AE1E72740E0044B924 /* Practice-2-3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A0908AD1E72740E0044B924 /* Practice-2-3.cpp */; };
 		4A49F9AC1E6CE6D4007E3A30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A49F9AB1E6CE6D4007E3A30 /* main.cpp */; };
 		4A49F9B31E6CE728007E3A30 /* LevelTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A49F9B21E6CE728007E3A30 /* LevelTraversal.cpp */; };
 		4A49F9B51E6CE77D007E3A30 /* Struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A49F9B41E6CE77D007E3A30 /* Struct.cpp */; };
@@ -42,6 +43,7 @@
 		4A0908A71E714A3C0044B924 /* Practice-1-7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-1-7.cpp"; sourceTree = "<group>"; };
 		4A0908A91E718C180044B924 /* Practice-1-10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-1-10.cpp"; sourceTree = "<group>"; };
 		4A0908AB1E71949A0044B924 /* Practice-2-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-2-1.cpp"; sourceTree = "<group>"; };
+		4A0908AD1E72740E0044B924 /* Practice-2-3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-2-3.cpp"; sourceTree = "<group>"; };
 		4A49F9A81E6CE6D4007E3A30 /* Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tree; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A49F9AB1E6CE6D4007E3A30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4A49F9B21E6CE728007E3A30 /* LevelTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelTraversal.cpp; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				4A0908A71E714A3C0044B924 /* Practice-1-7.cpp */,
 				4A0908A91E718C180044B924 /* Practice-1-10.cpp */,
 				4A0908AB1E71949A0044B924 /* Practice-2-1.cpp */,
+				4A0908AD1E72740E0044B924 /* Practice-2-3.cpp */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A49F9AC1E6CE6D4007E3A30 /* main.cpp in Sources */,
+				4A0908AE1E72740E0044B924 /* Practice-2-3.cpp in Sources */,
 				4A0908AA1E718C180044B924 /* Practice-1-10.cpp in Sources */,
 				4A0908A61E7139E30044B924 /* Practice-1-6.cpp in Sources */,
 				4A0908A41E711D370044B924 /* Practice-1-5.cpp in Sources */,

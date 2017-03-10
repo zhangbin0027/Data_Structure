@@ -98,9 +98,86 @@ void testLeavesPath()
     leavesPath(p);
 }
 
+//------------------------非递归后序遍历测试----------------
+void postOrder(TBTNode *root)
+{
+    TBTNode *stack[100];
+    int top = -1;
+    
+    TBTNode *p = root;
+    TBTNode *pre = p;    //记录p的双亲结点，以便找到右兄弟
+
+    //先入栈到后序第一个遍历的结点
+    while (p->lchild != NULL) {
+        stack[++top] = p;
+        pre = p;
+        p = p->lchild;
+    }
+    
+    while (top != -1) {
+        
+//        if (top != -1) {
+            p = stack[top--];
+            cout<<p->data<<"->";
+            p = pre->rchild;
+//        }
+    }
+//    if (p != NULL) {
+//        while (top != -1 || p != NULL) {
+//            //左子树入栈直至最左叶子，同时设置其双亲结点
+//            while (p != NULL) {
+//                stack[++top] = p;
+//                if (p->lchild != NULL) {
+//                    pre = p;
+//                    p = p->lchild;
+//                }else {
+//                    p = NULL;
+//                }
+//            }
+//            //出栈，p指向其右兄弟，进行入栈操作
+//            if (top != -1) {
+//                p = stack[top--];
+//                cout<<p->data<<"->";
+//                p = pre->rchild;
+//            }
+//        }
+//    }
+}
+
+//---------------------非递归中序遍历测试-------------------
+void inOrder(TBTNode *root)
+{
+    TBTNode *stack[100];
+    int top = -1;
+    
+    TBTNode *p = root;
+    if (root != NULL) {
+        //1.结点入栈时将左孩子（及其左孩子）入栈
+        //2.当到叶子的时候开始出栈，出了后将右孩子入栈
+        //3.重复以上步骤
+        while (top != -1 || p != NULL) {
+            //入左子树的左子树的左子树直到叶子结点
+            while (p != NULL) {
+                stack[++top] = p;
+                p = p->lchild;
+            }
+            //出栈，p指向其右孩子，进行循环左子树入栈操作
+            if (top != -1) {
+                p = stack[top--];
+                cout<<p->data<<endl;
+                p = p->rchild;
+            }
+        }
+    }
+}
+
+
+
 //------------------------测试程序入口--------------------
 int main(int argc, const char * argv[]) {
 
-    testLeavesPath();
+    TBTNode *p = (TBTNode *)malloc(sizeof(TBTNode));
+    createBT(p);
+    postOrder(p);
     return 0;
 }
