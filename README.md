@@ -1,6 +1,6 @@
 # 数据结构复习阶段典型题目
 
- - 代码都是自己写的，因此许多跟书上或者网上答案不一样，请谅解。 
+ - 代码是自己写的，因此有一些题目跟书上或者网上答案不一样，请谅解。 
  - 在答案或算法的重点难点中加了详尽的注释。
  - 当前正在完成的是数据结构高分笔记题目。之后会有天勤DS和其他一些经典题目。后续也会写一些经典DS相关的OJ题目。
  - 保证每一题是自己思考得出的结果。不敷衍，不将就。
@@ -58,7 +58,7 @@
  9. Practice-1-7：找到值为x的结点的层号，一种层次遍历方法，一种记录指针上下游走方法--[Practice-1-7][26]
  10. Practice-1-10：双序遍历（好像没啥卵用）--[Practice-1-10][27]
  11. Practice-2-1：输出根结点到每个叶子结点的路径--[Practice-2-1][28]
- 12. Practice-2-3：二叉树的非递归遍历，先序和后序--[Practice-2-3][29] **此处应扩展非递归后序遍历**
+ 12. Practice-2-3：二叉树的非递归遍历，先序和后序--[Practice-2-3][29] **（此处应扩展非递归后序遍历，抽空补上）**
   
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
   [2]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/DoubleLinkedList.cpp
