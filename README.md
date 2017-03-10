@@ -58,8 +58,9 @@
  9. Practice-1-7：找到值为x的结点的层号，一种层次遍历方法，一种记录指针上下游走方法--[Practice-1-7][26]
  10. Practice-1-10：双序遍历（好像没啥卵用）--[Practice-1-10][27]
  11. Practice-2-1：输出根结点到每个叶子结点的路径--[Practice-2-1][28]
-
-
+ 12. Practice-2-3：二叉树的非递归遍历，先序和后序--[Practice-2-3][29] *此处
+  应扩展非递归后序遍历*
+  
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
   [2]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/DoubleLinkedList.cpp
   [3]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/FakeQuestions.cpp
@@ -88,3 +89,4 @@
   [26]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-1-7.cpp
   [27]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-1-10.cpp
   [28]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-2-1.cpp
+  [29]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Tree/Tree/Practice-2-3.cpp
