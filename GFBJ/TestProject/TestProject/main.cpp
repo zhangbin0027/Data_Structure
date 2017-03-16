@@ -125,12 +125,29 @@ void inOrder(TBTNode *root)
     }
 }
 
+int com(int a, int b)
+{
+    if (a > b) {
+        return 1;
+    }else{
+        return 0;
+    }
+}
 
+float summary(float A[], int i, int j)
+{
+    if (i == j) {
+        return A[i];
+    }else {
+        return A[i] + summary(A, i+1, j);
+    }
+}
 
 //------------------------测试程序入口--------------------
 int main(int argc, const char * argv[]) {
 
     TBTNode *p = (TBTNode *)malloc(sizeof(TBTNode));
     createBT(p);
+    leavesPath(p);
     return 0;
 }

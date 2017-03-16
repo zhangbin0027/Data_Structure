@@ -37,3 +37,38 @@ void quickSort(int A[], int n)
     }
     A[i] = temp;
 }
+
+void transToBinary(int m)
+{
+    //创建栈
+    int stack[100];
+    int top = -1;
+    
+    //进栈
+    while (m != 1) {
+        stack[++top] = m % 2;
+        m = m/2;
+    }
+    
+    //出栈
+    for (int i = top; i > -1; --i) {
+        cout<<stack[i];
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

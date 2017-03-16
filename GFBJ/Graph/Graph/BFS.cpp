@@ -17,6 +17,13 @@ void handle(int i)
     //do something
 }
 
+/**
+ 图的广度优先搜索遍历
+
+ @param G     图
+ @param v     开始结点编号
+ @param visit 存放结点是否被访问过的数组
+ */
 void BFS(AGraph *G, int v, int visit[maxSize])
 {
     //定义队列
@@ -25,10 +32,11 @@ void BFS(AGraph *G, int v, int visit[maxSize])
     
     ArcNode *p;
     handle(v);      //访问顶点编号v的顶点
+    visit[v] = 1;   
     //进队
     rear = (rear+1) % maxSize;
     que[rear] = v;
-    
+    //队列空时遍历完成
     while (front != rear) {
         //出队
         front = (front+1) % maxSize;

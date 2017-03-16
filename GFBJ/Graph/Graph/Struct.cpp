@@ -25,7 +25,7 @@ typedef struct Mgraph
     int edges[maxSize][maxSize];    //邻接矩阵定义，若是有权图，数据类型为float
     int n,e;                        //顶点数、边数
     Vertex vex[maxSize];           //结点信息
-}Mgraph;
+}MGraph;
 
 
 //-------------------------邻接表-----------------------

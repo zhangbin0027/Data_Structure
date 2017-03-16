@@ -31,7 +31,7 @@ float findMax(float A[], int i, int j)
 }
 
 /**
- 递归求数组n个数之后
+ 递归求数组n个数之和
 
  @param A 浮点型数组
  @param i 函数作用起始位置

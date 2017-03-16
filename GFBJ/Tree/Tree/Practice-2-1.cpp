@@ -37,6 +37,8 @@ void leavesPath(BTNode *p)
         
         leavesPath(p->lchild);
         leavesPath(p->rchild);
+        
+        //出栈
         --top;
     }
 }
