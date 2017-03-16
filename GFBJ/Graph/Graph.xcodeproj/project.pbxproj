@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4AA2A9761E7A35FF00A12B86 /* Example-7-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A9751E7A35FF00A12B86 /* Example-7-2.cpp */; };
 		4AA2A97A1E7A3F0400A12B86 /* Prim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A9791E7A3F0400A12B86 /* Prim.cpp */; };
+		4AA2A97C1E7ABBAB00A12B86 /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A97B1E7ABBAB00A12B86 /* Kruskal.cpp */; };
 		4AD45E141E74E20000C19F1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AD45E131E74E20000C19F1C /* main.cpp */; };
 		4AD45E1B1E74E21300C19F1C /* Struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AD45E1A1E74E21300C19F1C /* Struct.cpp */; };
 		4AD45E1D1E74EF9F00C19F1C /* DFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AD45E1C1E74EF9F00C19F1C /* DFS.cpp */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		4AA2A9751E7A35FF00A12B86 /* Example-7-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Example-7-2.cpp"; sourceTree = "<group>"; };
 		4AA2A9791E7A3F0400A12B86 /* Prim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prim.cpp; sourceTree = "<group>"; };
+		4AA2A97B1E7ABBAB00A12B86 /* Kruskal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kruskal.cpp; sourceTree = "<group>"; };
 		4AD45E101E74E20000C19F1C /* Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graph; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD45E131E74E20000C19F1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4AD45E1A1E74E21300C19F1C /* Struct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Struct.cpp; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				4AD45E1E1E756C0700C19F1C /* BFS.cpp */,
 				4AA2A9751E7A35FF00A12B86 /* Example-7-2.cpp */,
 				4AA2A9791E7A3F0400A12B86 /* Prim.cpp */,
+				4AA2A97B1E7ABBAB00A12B86 /* Kruskal.cpp */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			files = (
 				4AA2A9761E7A35FF00A12B86 /* Example-7-2.cpp in Sources */,
 				4AD45E1D1E74EF9F00C19F1C /* DFS.cpp in Sources */,
+				4AA2A97C1E7ABBAB00A12B86 /* Kruskal.cpp in Sources */,
 				4AD45E1B1E74E21300C19F1C /* Struct.cpp in Sources */,
 				4AA2A97A1E7A3F0400A12B86 /* Prim.cpp in Sources */,
 				4AD45E141E74E20000C19F1C /* main.cpp in Sources */,
