@@ -10,6 +10,7 @@
 using namespace std;
 
 #define maxSize 100
+#define INF 65535
 
 //-------------------------邻接矩阵------------------------
 //顶点结构

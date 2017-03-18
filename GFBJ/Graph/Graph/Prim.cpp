@@ -10,7 +10,6 @@
 #include "Struct.cpp"
 using namespace std;
 
-#define INF 65535
 
 /**
  Prim算法找最小生成树MST
