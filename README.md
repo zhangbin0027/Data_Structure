@@ -67,6 +67,7 @@
  3. Example-7-2：判断一个无向图是否是一颗树--[Example-7-2][32]
  4. Prim：普里姆算法生成最小生成树MST--[Prim][33]
  5. Kruskal：克鲁斯卡尔算法生成MST--[Kruskal][34]
+ 6. Dijkstra：Dijkstra算法求最短路径（附[草图][35]）--[Dijkstra][36]
 
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
@@ -103,3 +104,5 @@
   [32]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Example-7-2.cpp
   [33]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Prim.cpp
   [34]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Kruskal.cpp
+  [35]: https://github.com/lfny2580832/Data_Structure/blob/master/sources/Dijkstra.jpg
+  [36]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Dijkstra.cpp
