@@ -35,18 +35,24 @@ void printPath(int u, int v, int path[][maxSize])
 void Floyd(MGraph G, int dis[][maxSize], int path[][maxSize])
 {
     //初始化dis矩阵和path矩阵
-    for (int i = 0; i < G.n; ++i) {
-        for (int j = 0; j < G.n; ++j) {
+    for (int i = 0; i < G.n; ++i)
+    {
+        for (int j = 0; j < G.n; ++j)
+        {
             dis[i][j] = G.edges[i][j];
             path[i][j] = -1;
         }
     }
     
     //里面两层循环是遍历一次矩阵，最外面一层代表以每个顶点为中间点，遍历一次矩阵
-    for (int k = 0; k < G.n; ++k) {
-        for (int i = 0; i < G.n; ++i) {
-            for (int j = 0; j < G.n; ++j) {
-                if (dis[i][j] > dis[i][k] + dis[k][j]) {
+    for (int k = 0; k < G.n; ++k)
+    {
+        for (int i = 0; i < G.n; ++i)
+        {
+            for (int j = 0; j < G.n; ++j)
+            {
+                if (dis[i][j] > dis[i][k] + dis[k][j])
+                {
                     dis[i][j] = dis[i][k] + dis[k][j];
                     path[i][j] = k;
                 }

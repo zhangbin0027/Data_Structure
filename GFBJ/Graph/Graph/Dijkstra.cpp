@@ -11,6 +11,23 @@
 using namespace std;
 
 /**
+ 输出根结点到a的最短路径
+ */
+void printPath(int parent[], int a)
+{
+    int stack[maxSize] , top = -1;
+    while (parent[a] != -1) {
+        stack[++top] = a;
+        a = parent[a];
+    }
+    stack[++top] = a;
+    while (top != -1) {
+        cout<<stack[top--]<<"";
+    }
+    cout<<endl;
+}
+
+/**
  Dijkstra求图中某一顶点到其余各顶点的最短路径
 
  注意：此算法可参考草图

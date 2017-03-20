@@ -43,6 +43,7 @@ typedef struct VNode
 {
     char data;                      //顶点信息。顶点编号可通过数组下标获取
     ArcNode *firstArc;              //顶点指向的第一条边的指针
+    int inCount;                    //入度（不是必须，根据题目来设置，此处用来写拓扑排序）
 }VNode;
 
 //邻接表结构
