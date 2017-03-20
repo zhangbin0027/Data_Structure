@@ -1,5 +1,5 @@
 //
-//  CMP.cpp
+//  CPM.cpp
 //  Graph
 //
 //  Created by 牛严 on 2017/3/20.
@@ -108,24 +108,3 @@ int CriticalPath(AGraph *G)
     }
     return 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
