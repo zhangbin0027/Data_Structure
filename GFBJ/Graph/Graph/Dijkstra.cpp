@@ -16,7 +16,7 @@ using namespace std;
  注意：此算法可参考草图
  @param G 图
  @param v 顶点编号
- @param distance distance[]存放v点到其余顶点的最短路径长度，如20-30-40-50-60
+ @param distance distance[]存放v点到其余顶点的最短路径长度
  @param parent parent[]保存下标对应顶点的前一个顶点，parent是一棵双亲树，
              根据下标存的父亲能找到根结点
  */

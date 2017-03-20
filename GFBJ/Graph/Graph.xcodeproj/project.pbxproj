@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A6F5FE01E7F6F81000F0CF5 /* Floyd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F5FDF1E7F6F81000F0CF5 /* Floyd.cpp */; };
 		4AA2A9761E7A35FF00A12B86 /* Example-7-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A9751E7A35FF00A12B86 /* Example-7-2.cpp */; };
 		4AA2A97A1E7A3F0400A12B86 /* Prim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A9791E7A3F0400A12B86 /* Prim.cpp */; };
 		4AA2A97C1E7ABBAB00A12B86 /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A97B1E7ABBAB00A12B86 /* Kruskal.cpp */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A6F5FDF1E7F6F81000F0CF5 /* Floyd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Floyd.cpp; sourceTree = "<group>"; };
 		4AA2A9751E7A35FF00A12B86 /* Example-7-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Example-7-2.cpp"; sourceTree = "<group>"; };
 		4AA2A9791E7A3F0400A12B86 /* Prim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prim.cpp; sourceTree = "<group>"; };
 		4AA2A97B1E7ABBAB00A12B86 /* Kruskal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kruskal.cpp; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				4AA2A9791E7A3F0400A12B86 /* Prim.cpp */,
 				4AA2A97B1E7ABBAB00A12B86 /* Kruskal.cpp */,
 				4AA2A97F1E7CDC3000A12B86 /* Dijkstra.cpp */,
+				4A6F5FDF1E7F6F81000F0CF5 /* Floyd.cpp */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AA2A9761E7A35FF00A12B86 /* Example-7-2.cpp in Sources */,
+				4A6F5FE01E7F6F81000F0CF5 /* Floyd.cpp in Sources */,
 				4AA2A9801E7CDC3000A12B86 /* Dijkstra.cpp in Sources */,
 				4AD45E1D1E74EF9F00C19F1C /* DFS.cpp in Sources */,
 				4AA2A97C1E7ABBAB00A12B86 /* Kruskal.cpp in Sources */,
