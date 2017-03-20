@@ -69,6 +69,7 @@
  5. Kruskal：克鲁斯卡尔算法生成MST--[Kruskal][34]
  6. Dijkstra：Dijkstra算法求最短路径（附[草图][35]）--[Dijkstra][36]
  7. Floyd：Floyd算法求最短路径--[Floyd][37]
+ 8. TopoLogical：拓扑排序的一种解法（非DFS方法）--[TopoLogical][38]
 
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
@@ -108,3 +109,4 @@
   [35]: https://github.com/lfny2580832/Data_Structure/blob/master/sources/Dijkstra.jpg
   [36]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Dijkstra.cpp
   [37]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Floyd.cpp
+  [38]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/TopoLogicalSort.cpp
