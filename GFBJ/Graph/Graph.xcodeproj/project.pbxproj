@@ -13,6 +13,7 @@
 		4AA2A97A1E7A3F0400A12B86 /* Prim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A9791E7A3F0400A12B86 /* Prim.cpp */; };
 		4AA2A97C1E7ABBAB00A12B86 /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A97B1E7ABBAB00A12B86 /* Kruskal.cpp */; };
 		4AA2A9801E7CDC3000A12B86 /* Dijkstra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2A97F1E7CDC3000A12B86 /* Dijkstra.cpp */; };
+		4AC281A01E7FDCC00010EF7E /* CMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC2819F1E7FDCC00010EF7E /* CMP.cpp */; };
 		4AD45E141E74E20000C19F1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AD45E131E74E20000C19F1C /* main.cpp */; };
 		4AD45E1B1E74E21300C19F1C /* Struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AD45E1A1E74E21300C19F1C /* Struct.cpp */; };
 		4AD45E1D1E74EF9F00C19F1C /* DFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AD45E1C1E74EF9F00C19F1C /* DFS.cpp */; };
@@ -38,6 +39,7 @@
 		4AA2A9791E7A3F0400A12B86 /* Prim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prim.cpp; sourceTree = "<group>"; };
 		4AA2A97B1E7ABBAB00A12B86 /* Kruskal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kruskal.cpp; sourceTree = "<group>"; };
 		4AA2A97F1E7CDC3000A12B86 /* Dijkstra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dijkstra.cpp; sourceTree = "<group>"; };
+		4AC2819F1E7FDCC00010EF7E /* CMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMP.cpp; sourceTree = "<group>"; };
 		4AD45E101E74E20000C19F1C /* Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graph; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD45E131E74E20000C19F1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4AD45E1A1E74E21300C19F1C /* Struct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Struct.cpp; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				4AA2A97F1E7CDC3000A12B86 /* Dijkstra.cpp */,
 				4A6F5FDF1E7F6F81000F0CF5 /* Floyd.cpp */,
 				4A6F5FE11E7FB75B000F0CF5 /* TopoLogicalSort.cpp */,
+				4AC2819F1E7FDCC00010EF7E /* CMP.cpp */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC281A01E7FDCC00010EF7E /* CMP.cpp in Sources */,
 				4AA2A9761E7A35FF00A12B86 /* Example-7-2.cpp in Sources */,
 				4A6F5FE01E7F6F81000F0CF5 /* Floyd.cpp in Sources */,
 				4AA2A9801E7CDC3000A12B86 /* Dijkstra.cpp in Sources */,
