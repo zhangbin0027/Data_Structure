@@ -74,6 +74,17 @@
  10. Practice-1-9：DFS非递归方法--[Practice-1-9][40]
  11. Practice-2-1：『畅通工程』--[Practice-2-1][41]
 
+### 第八章 排序
+
+ 1. InsertSort：直接插入排序--[InsertSort][42]
+ 2. BinaryInsertSort：折半插入排序--[BinaryInsertSort][43]
+ 3. ShellSort：希尔排序--[ShellSort][44]
+ 4. BubbleSort：冒泡排序--[BubbleSort][45]
+ 5. QuickSort：快速排序--[QuickSort][46]
+ 6. SelectSort：简单选择排序--[SelectSort][47]
+ 7. HeapSort：堆排序--[HeapSort][48]
+ 8. MergeSort：2路归并排序--[MergeSort][49]
+
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
   [2]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/DoubleLinkedList.cpp
@@ -116,3 +127,11 @@
   [39]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/CMP.cpp
   [40]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Practice-1-9.cpp
   [41]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Practice-2-1.cpp
+  [42]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/InsertSort.cpp
+  [43]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/BinaryInsertSort.cpp
+  [44]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/ShellSort.cpp
+  [45]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/BubbleSort.cpp
+  [46]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/QuickSort.cpp
+  [47]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/SelectSort.cpp
+  [48]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/HeapSort.cpp
+  [49]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/MergeSort.cpp
