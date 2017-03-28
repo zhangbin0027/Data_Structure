@@ -1,8 +1,8 @@
-# 数据结构复习阶段典型题目
+# 数据结构典型算法题目
 
- - 代码都是自己写的，因此许多跟书上或者网上答案不一样，请谅解。 
+ - 有些算法是自己写的，因此许多跟书上或者网上答案不一样，请谅解。 
  - 在答案或算法的重点难点中加了详尽的注释。
- - 当前正在完成的是数据结构高分笔记题目。之后会有天勤DS和其他一些经典题目。后续也会写一些经典DS相关的OJ题目。
+ - 当前正在完成的是数据结构高分笔记题目。之后会有王道DS和其他一些经典题目。后续也会写一些经典DS相关的OJ题目。
  - 保证每一题是自己思考得出的结果。不敷衍，不将就。
  - 此项目为个人所用，不代表标准答案，不承担内容错误造成的损失。若有人关注或看到错误，欢迎及时pr，感谢。
  - 三跨考生，本科教育。编程经验一年半，现辞职考研中。考研相关交流请加qq：632176758
@@ -74,6 +74,17 @@
  10. Practice-1-9：DFS非递归方法--[Practice-1-9][40]
  11. Practice-2-1：『畅通工程』--[Practice-2-1][41]
 
+### 第八章 排序
+
+ 1. InsertSort：直接插入排序--[InsertSort][42]
+ 2. BinaryInsertSort：折半插入排序--[BinaryInsertSort][43]
+ 3. ShellSort：希尔排序--[ShellSort][44]
+ 4. BubbleSort：冒泡排序--[BubbleSort][45]
+ 5. QuickSort：快速排序--[QuickSort][46]
+ 6. SelectSort：简单选择排序--[SelectSort][47]
+ 7. HeapSort：堆排序--[HeapSort][48]
+ 8. MergeSort：2路归并排序--[MergeSort][49]
+
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
   [2]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/DoubleLinkedList.cpp
@@ -116,3 +127,11 @@
   [39]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/CMP.cpp
   [40]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Practice-1-9.cpp
   [41]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Graph/Graph/Practice-2-1.cpp
+  [42]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/InsertSort.cpp
+  [43]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/BinaryInsertSort.cpp
+  [44]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/ShellSort.cpp
+  [45]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/BubbleSort.cpp
+  [46]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/QuickSort.cpp
+  [47]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/SelectSort.cpp
+  [48]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/HeapSort.cpp
+  [49]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/MergeSort.cpp
