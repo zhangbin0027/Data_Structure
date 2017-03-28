@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A134E5C1E8A7DF300AC189A /* Proactice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A134E5B1E8A7DF300AC189A /* Proactice.cpp */; };
 		4A1DF48F1E8527DB00961D51 /* BinaryInsertSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DF48E1E8527DB00961D51 /* BinaryInsertSort.cpp */; };
 		4A1DF4911E85354E00961D51 /* ShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DF4901E85354E00961D51 /* ShellSort.cpp */; };
 		4A1DF4931E8559FD00961D51 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DF4921E8559FD00961D51 /* BubbleSort.cpp */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A134E5B1E8A7DF300AC189A /* Proactice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Proactice.cpp; sourceTree = "<group>"; };
 		4A1DF48E1E8527DB00961D51 /* BinaryInsertSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryInsertSort.cpp; sourceTree = "<group>"; };
 		4A1DF4901E85354E00961D51 /* ShellSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShellSort.cpp; sourceTree = "<group>"; };
 		4A1DF4921E8559FD00961D51 /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				4A1DF4961E855FC300961D51 /* SelectSort.cpp */,
 				4A1DF4981E85EFDE00961D51 /* HeapSort.cpp */,
 				4A1DF49A1E85FF5000961D51 /* MergeSort.cpp */,
+				4A134E5B1E8A7DF300AC189A /* Proactice.cpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				4A1DF48F1E8527DB00961D51 /* BinaryInsertSort.cpp in Sources */,
 				4AE1DBC81E8520DF005A9C85 /* InsertSort.cpp in Sources */,
 				4A1DF4911E85354E00961D51 /* ShellSort.cpp in Sources */,
+				4A134E5C1E8A7DF300AC189A /* Proactice.cpp in Sources */,
 				4A1DF49B1E85FF5000961D51 /* MergeSort.cpp in Sources */,
 				4AE1DBC11E8520CF005A9C85 /* main.cpp in Sources */,
 			);
