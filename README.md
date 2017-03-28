@@ -1,9 +1,7 @@
 # 数据结构典型算法题目
 
- - 有些算法是自己写的，因此许多跟书上或者网上答案不一样，请谅解。 
  - 在答案或算法的重点难点中加了详尽的注释。
  - 当前正在完成的是数据结构高分笔记题目。之后会有王道DS和其他一些经典题目。后续也会写一些经典DS相关的OJ题目。
- - 保证每一题是自己思考得出的结果。不敷衍，不将就。
  - 此项目为个人所用，不代表标准答案，不承担内容错误造成的损失。若有人关注或看到错误，欢迎及时pr，感谢。
  - 三跨考生，本科教育。编程经验一年半，现辞职考研中。考研相关交流请加qq：632176758
 
@@ -84,6 +82,7 @@
  6. SelectSort：简单选择排序--[SelectSort][47]
  7. HeapSort：堆排序--[HeapSort][48]
  8. MergeSort：2路归并排序--[MergeSort][49]
+ 9. Practice：计数排序、双向冒泡排序、链表插入排序--[Practice][50]
 
 
   [1]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/LinearList/LinearList/LinkedList.cpp
@@ -135,3 +134,4 @@
   [47]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/SelectSort.cpp
   [48]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/HeapSort.cpp
   [49]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/MergeSort.cpp
+  [50]: https://github.com/lfny2580832/Data_Structure/blob/master/GFBJ/Sort/Sort/Proactice.cpp
