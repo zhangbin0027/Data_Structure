@@ -21,6 +21,7 @@ void HeapAdjust(int R[], int low, int high)
         if (j < high && R[j] < R[i+1]) {
             ++j;
         }
+        //如果交换后temp依然大于其孩子，继续下沉
         if (temp < R[j]) {
             R[i] = R[j];
             i = j;
@@ -46,6 +47,7 @@ void HeapSort(int R[], int n)
     }
     //n-1次循环完成堆排序
     for (i = n; i >= 2; --i) {
+        //将堆顶元素取出放在后面，将堆最后一个结点移到堆顶，然后调整二叉树
         temp = R[1];
         R[1] = R[i];
         R[i] = temp;
