@@ -92,20 +92,20 @@ void Sort(LNode *h)
     LNode *p,*pre,*q;
     if (h->next != NULL) {
         p = h->next->next;      //p指向链表第二个数据结点
-        h->next->next = NULL;   //产生只带一个结点的有序表
+        h->next->next = NULL;   //产生只带一个结点的有序表，h相当于已排序的序列，p相当于未排序序列
     }
     while (p != NULL) {
-        pre = h;
+        pre = h;                //pre指向q的前驱
         q = pre->next;
         //找到一个结点q，其data值大于p的data值
         while (q != NULL && q->data < p->data) {
             pre = q;
             q = q->next;
         }
-        LNode *p1 = p->next;
+        LNode *temp = p->next;
         p->next = pre->next;
         pre->next = p;          //将p插到pre之后
-        p = p1;
+        p = temp;
     }
 }
 
