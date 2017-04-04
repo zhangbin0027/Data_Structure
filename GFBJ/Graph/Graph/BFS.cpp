@@ -50,6 +50,8 @@ void BFS(AGraph *G, int v, int visit[maxSize])
                 visit[p->adjVex] = 1;
                 rear = (rear + 1) % maxSize;
                 que[rear] = p->adjVex;
+            }else {
+                //若有孩子已经访问过，说明遇到了环
             }
             //结点若访问过直接找下一个arcNode，没访问过则进队，再找下一个arcNode
             p = p->nextArc;
